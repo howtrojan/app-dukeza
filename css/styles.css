@@ -1,0 +1,296 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url('../fontes/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fontes/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+/*Seletores*/
+
+body{
+    font-family: 'Montserrat' , 'Ubuntu', sans-serif;    
+}
+
+header{
+    background-color: #051d35;    
+    padding-left: 6rem;
+}
+
+button{
+    font-family: 'Montserrat' , 'Ubuntu', sans-serif;      
+}
+
+h1{
+    font-family: 'Montserrat' , 'Ubuntu', sans-serif;    
+    font-size: 2.5rem;
+    line-height: 1.5;      
+}
+
+h2{
+    font-family: 'Montserrat' , 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    line-height: 1; 
+}
+
+h3{
+    font-family: 'Montserrat-Bold' ;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*Classes*/
+
+.navbar{
+    margin: 0 15rem;
+}
+
+.container-fluid {  
+    padding: 0rem 15rem;  
+    position: relative;
+    height: 33rem;
+}
+
+
+.titulo {
+    position: relative;
+    width: 350px;
+}
+
+
+.fa-brands .fab{
+    font-size: 1.1rem;       
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;  
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.item{
+    align-items: center;    
+}
+
+.gatinho{
+    padding: 5rem 10rem;    
+    position: relative;
+    z-index: 1;   
+}
+
+.gatinhofoto{
+    max-height: 33rem;
+    position: relative;
+    transform: rotate(25deg);    
+    left: -6rem;     
+}
+
+
+
+.navbar-nav{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;      
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+.navbar{
+    padding: 0;
+}
+
+.icone{    
+    margin-bottom: 2rem;
+    color: #ef8172;
+}
+
+.icone:hover{
+    color: #ff4c68;
+}
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+
+}
+
+.press-img{
+    width: 15%;
+    margin: 3%;
+}
+
+.carousel-item{
+    padding: 7% 15%;    
+    height: 250px;
+}
+
+.priccing-column{
+    padding: 3% 2%;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;    
+    margin: 5%;
+}
+
+.download-button{
+    margin-top: 2rem;
+    width: 10rem;
+    background-color:#343a40;
+    border: none;
+}
+
+.titulofinal{
+    font-size: 33px;
+    font-weight: bold;
+}
+    
+
+/*Id*/
+
+#title{
+    
+    color: #ffff;
+}
+
+#texto1{
+    padding-top: 3rem;  
+    padding-bottom: 1.5rem;    
+}
+
+#btn1{
+    margin-right: 1.5rem;
+}
+
+
+#features{
+    padding: 7% 15%;   
+    background-color: #ffff; 
+    position: relative;
+    z-index: 2; 
+}
+
+#testimonials{
+    padding: 5rem 25%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing{
+    padding: 3rem;
+}
+
+#titulocard{
+    text-align: center;  
+    margin: 1rem;  
+    margin-bottom: 4rem;
+}
+
+#cta{
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    background-color: #ef8172;
+    height: 15rem;  
+    padding-top: 4rem;  
+    color: #ffff;
+}
+
+@media (max-width: 1100px) {
+    .gatinhofoto{
+        transform: rotate(0deg);   
+        max-height: 25rem;     
+        margin-left: 35%;     
+    }
+
+    header{
+        padding: 0;
+    }
+
+    .container-fluid {          
+        height: 55rem;
+        padding-left: 19rem;
+    }
+
+    .navbar{
+        padding-left: 3rem;
+        justify-content:center;
+    }
+
+    h1 {        
+        font-size: 2rem;
+        text-align: center;        
+    }
+  }
+
+
+  @media (max-width: 927px) { 
+    .navbar {           
+        margin-left: 23rem;
+        justify-content:flex-start;
+        padding-left: 0;
+    }
+
+    .navbar-brand{
+        font-size: 29px;
+    }
+    }
+
+  @media (max-width: 778px) { 
+    .navbar {           
+        margin: 0 25%;
+        justify-content:flex-start;
+        padding-left: 8%;
+    }
+
+    .container-fluid {
+        padding-left: 15%;
+        position: relative;
+        height: 55rem;
+    }
+
+    .gatinhofoto{
+        transform: rotate(0deg);   
+        max-height: 25rem;     
+        margin-left: 1.5rem;     
+    }
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
